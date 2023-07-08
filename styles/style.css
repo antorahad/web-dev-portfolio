@@ -4,10 +4,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.header{
+    background-color: #fff8f3;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav .logo{
@@ -47,5 +52,24 @@ nav button {
     color: #ffffff;
     border: none;
     border-radius: 5px;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.banner button {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 35px;
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.portfolio-img{
+    width: 500px;
 }
 
